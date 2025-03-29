@@ -1,6 +1,6 @@
 import sqlite3
 import os
-
+#bug fix
 def get_user_data(username):
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
